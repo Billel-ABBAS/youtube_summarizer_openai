@@ -15,7 +15,7 @@ COPY requirements.txt /home/app/
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copier les fichiers nécessaires de l'application dans le répertoire de travail du conteneur
-COPY app-new.py /home/app/
+COPY main.py /home/app/
 COPY style.css /home/app/
 COPY representative_image.jpeg /home/app/
 # # Si vous avez des configurations Streamlit spécifiques, assurez-vous de les copier
