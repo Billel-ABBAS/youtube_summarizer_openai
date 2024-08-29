@@ -1,0 +1,9 @@
+youtube-transcript-api
+openai==0.27.0
+streamlit
+langdetect
+google-api-python-client
+yt-dlp
+google-auth<2
+pandas
+
