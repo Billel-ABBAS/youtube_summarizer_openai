@@ -6,4 +6,3 @@ google-api-python-client
 yt-dlp
 google-auth<2
 pandas
-
